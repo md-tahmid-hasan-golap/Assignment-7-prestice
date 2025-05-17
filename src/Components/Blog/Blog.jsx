@@ -3,7 +3,7 @@ import { GiSelfLove } from "react-icons/gi";
 
 const Blog = ({ blog, handleMarkCount }) => {
   const { image, title, currentBidPrice, TimeLeft } = blog;
-  //   console.log(blog);
+  console.log(blog);
   return (
     <>
       <tr>

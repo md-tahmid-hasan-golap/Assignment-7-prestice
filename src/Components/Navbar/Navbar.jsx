@@ -11,11 +11,11 @@ const Navbar = () => {
               <span className="text-yellow-400">Gallery</span>
             </h1>
           </div>
-          <nav class="grid grid-flow-col gap-4">
-            <a class="link link-hover">Home</a>
-            <a class="link link-hover">Auctions</a>
-            <a class="link link-hover">Categories</a>
-            <a class="link link-hover">How to works</a>
+          <nav className="grid grid-flow-col gap-4">
+            <a className="link link-hover">Home</a>
+            <a className="link link-hover">Auctions</a>
+            <a className="link link-hover">Categories</a>
+            <a className="link link-hover">How to works</a>
           </nav>
           <div className="flex space-x-4 items-center justify-center">
             <button className="btn btn-ghost btn-circle">

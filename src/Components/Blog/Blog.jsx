@@ -1,9 +1,9 @@
 import React from "react";
 import { GiSelfLove } from "react-icons/gi";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleMarkCount }) => {
   const { image, title, currentBidPrice, TimeLeft } = blog;
-  console.log(blog);
+  //   console.log(blog);
   return (
     <>
       <tr>
@@ -22,7 +22,10 @@ const Blog = ({ blog }) => {
         <td>${currentBidPrice}</td>
         <td>{TimeLeft}</td>
         <th>
-          <button className="btn btn-ghost btn-xs">
+          <button
+            onClick={() => handleMarkCount(blog)}
+            className="btn btn-ghost btn-xs"
+          >
             <GiSelfLove size={25} />
           </button>
         </th>

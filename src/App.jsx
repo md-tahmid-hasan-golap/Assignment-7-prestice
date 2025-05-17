@@ -21,15 +21,17 @@ function App() {
         <h2 className="text-3xl font-medium mb-5">Active Auctions</h2>
         <p className="text-xl">Discover and bid on extraordinary items</p>
       </div>{" "}
-      <div className="main-container flex text-center mt-5">
+      <div className="main-container flex text-center mt-5 max-w-11/12 mx-auto space-x-5">
         <div className="left-container w-[70%]">
           <Blogs handleMarkCount={handleMarkCount}></Blogs>
         </div>
-        <div className="right-container w-[30%]">
+        <div className="right-container w-[30%] border rounded-md p-2">
           <div className=" p-5 shadow rounded-md  mt-4">
             <div className="flex space-x-2 items-center justify-center ">
               <GiSelfLove size={25} />
-              <h2 className="text-2xl font-medium">Favorite Items</h2>
+              <h2 className="text-2xl font-medium text-blue-400">
+                Favorite Items
+              </h2>
             </div>
             <p className="border mt-8"></p>
             <h2 className="text-2xl font-medium mt-8">No favorites yet</h2>

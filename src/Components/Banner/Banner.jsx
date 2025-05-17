@@ -15,11 +15,12 @@ const Banner = () => {
             <h1 className="mb-5 text-3xl font-bold">
               Bid on Unique Items from <br /> Around the World
             </h1>
-            <p className="mb-5 text-gray-300">
-              Discover rare collectibles, luxury goods, and vintage <br />{" "}
-              treasures in our curated auctions
+            <p className="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
             </p>
-            <button className="btn btn-primary">Explore Auctions</button>
+            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

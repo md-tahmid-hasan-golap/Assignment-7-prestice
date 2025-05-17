@@ -11,7 +11,7 @@ const Blogs = () => {
   //   console.log(blogs);
   return (
     <div>
-      <div className="overflow-x-auto max-w-11/12 mx-auto bg-gray-100 p-3 mt-4 rounded-md">
+      <div className="overflow-x-auto max-w-11/12 mx-auto shadow p-3 mt-4 rounded-md">
         <table className="table">
           {/* head */}
           <thead className="text-black">

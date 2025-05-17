@@ -25,8 +25,8 @@ function App() {
         <div className="left-container w-[70%]">
           <Blogs handleMarkCount={handleMarkCount}></Blogs>
         </div>
-        <div className="right-container w-[30%] border rounded-md p-2">
-          <div className=" p-5 shadow rounded-md  mt-4">
+        <div className="right-container w-[30%]  rounded-md p-1 mt-3">
+          <div className=" p-5 shadow rounded-md  ">
             <div className="flex space-x-2 items-center justify-center ">
               <GiSelfLove size={25} />
               <h2 className="text-2xl font-medium text-blue-400">

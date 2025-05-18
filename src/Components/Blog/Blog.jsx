@@ -1,7 +1,7 @@
 import React from "react";
 import { GiSelfLove } from "react-icons/gi";
 
-const Blog = ({ blog, handleMarkCount }) => {
+const Blog = ({ blog, handleMarkCount, mark }) => {
   const { image, title, currentBidPrice, TimeLeft } = blog;
   //   console.log(blog);
   return (
@@ -23,10 +23,14 @@ const Blog = ({ blog, handleMarkCount }) => {
         <td>{TimeLeft}</td>
         <th>
           <button
+            disabled={mark.includes(blog)}
             onClick={() => handleMarkCount(blog)}
             className="btn btn-ghost btn-xs"
           >
-            <GiSelfLove size={25} />
+            <GiSelfLove
+              className={mark.includes(blog) ? "text-red-500" : ""}
+              size={25}
+            />
           </button>
         </th>
       </tr>
